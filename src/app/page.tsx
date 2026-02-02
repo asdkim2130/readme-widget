@@ -117,7 +117,9 @@ export default function Page() {
             <span style={styles.muted}>{items.length}건</span>
           )}
           {!canSearch && (
-            <span style={styles.muted}>책 제목/저자를 입력하면 결과가 표시돼요</span>
+            <span style={styles.muted}>
+              책 제목/저자를 입력하면 결과가 표시돼요
+            </span>
           )}
         </div>
 
@@ -165,7 +167,7 @@ const styles: Record<string, React.CSSProperties> = {
     minHeight: "100vh",
     placeItems: "center",
     padding: 16,
-    background: "#fafafa", // 노션 느낌: 아주 옅은 회색
+    background: "#ffffff", // 노션 느낌: 아주 옅은 회색
     color: "#37352f",
 
     // ✅ 가운데 정렬 제거
